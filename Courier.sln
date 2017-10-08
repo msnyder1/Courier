@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courier", "Courier\Courier.csproj", "{09000B6E-71F0-43C3-A0AA-73D2DE59CDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courier.Tests", "Courier.Tests\Courier.Tests.csproj", "{CD808508-6206-4384-86F1-47C5CE04C757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09000B6E-71F0-43C3-A0AA-73D2DE59CDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09000B6E-71F0-43C3-A0AA-73D2DE59CDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09000B6E-71F0-43C3-A0AA-73D2DE59CDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09000B6E-71F0-43C3-A0AA-73D2DE59CDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD808508-6206-4384-86F1-47C5CE04C757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD808508-6206-4384-86F1-47C5CE04C757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD808508-6206-4384-86F1-47C5CE04C757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD808508-6206-4384-86F1-47C5CE04C757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {627B867E-13EB-487A-ACD8-FFF21FCC26FF}
+	EndGlobalSection
+EndGlobal
