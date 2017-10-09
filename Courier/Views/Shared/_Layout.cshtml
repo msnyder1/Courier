@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
+<body>    
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -29,11 +29,18 @@
             </div>
         </div>
     </div>
+    <div id="BannerMessage">
+        <p>
+            This is a portfolio website and not an actual business.
+            <br />
+            To see a list of technologies used, <a href="#">click here</a>.
+        </p>
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Powered by Pinecone Technology for [COMPANY NAME]</p>
+            <p>&copy; @DateTime.Now.Year - Powered by ASP.Net MVC 5.2.3</p>
         </footer>
     </div>
 
